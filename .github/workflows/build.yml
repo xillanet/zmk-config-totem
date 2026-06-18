@@ -1,4 +1,10 @@
-on: [push, pull_request, workflow_dispatch]
+name: Build
+
+on:
+  push:
+    paths:
+      - ".github/workflows/build.yml"
+      - "config/**"
 
 jobs:
   build:
