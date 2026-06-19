@@ -32,6 +32,10 @@ This fork is design for one-handed use and is specifically for Japanese.
 - **ホールドタップ不使用** GUIキーなどはスティッキーキーを使用。Shiftキーのみ専用キーだが、単押しは言語切替。
 - **2026年6月時点のビルドで安定動作** ビルドエラーを回避するためにZMKのバージョンを`v0.2`に固定。
 
+<img width="494" height="417" alt="layer_0" src="https://github.com/user-attachments/assets/d5d2deb7-0b8c-4853-8681-9d9f8e19b34e" />
+<img width="494" height="417" alt="layer_1" src="https://github.com/user-attachments/assets/6464531a-535d-4127-922a-5673665a5579" />
+<img width="494" height="417" alt="layer_2" src="https://github.com/user-attachments/assets/75bb4ba1-2acf-4976-a5cf-e635212bc843" />
+<img width="494" height="417" alt="layer_3" src="https://github.com/user-attachments/assets/135f02e7-da84-47a4-b93d-fcf91cbaf7c7" />
 
 ## 備忘録：ハードウェアの調達
 - AliExpressで1〜2万円でハンダ済みの完成品を購入できる。
