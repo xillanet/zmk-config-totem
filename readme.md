@@ -9,8 +9,7 @@
 [Here](https://github.com/GEIGEIGEIST/totem) you can find the hardware files and build guide.\
 [Here](https://github.com/GEIGEIGEIST/qmk-config-totem) you can find the QMK config for the TOTEM.
 
-Original TOTEM is a 38 key column-staggered split keyboard running [ZMK](https://zmk.dev/) or [QMK](https://docs.qmk.fm/). It's meant to be used with a SEEED XIAO BLE or RP2040.
-This fork is design for one-handed use and is specifically for Japanese.
+Original TOTEM is a 38 key column-staggered split keyboard. This fork is design for one-handed use and is specifically for Japanese and is using ZMK firmware.
 
 本フォークは無線分割キーボード「TOTEM」の左手側（または右手側）を独立した片手用キーボードとして運用するための個人用設定レポジトリになります。
 完全に日本語の入力に特化した配列です。英語やプログラミングには不向きですが、その分、日本語入力は効率的になるようにデザインされています。
@@ -45,7 +44,7 @@ This fork is design for one-handed use and is specifically for Japanese.
 ## 備忘録：ハードウェアの調達
 - AliExpressで1〜2万円でハンダ済みのTOTEM完成品を購入できる。
   - Choc V1のみとChoc V1/V2両対応版があるので注意。
-  - XIAO BLEのものが主流と思われるが、有線版もあるのかも。
+  - XIAO BLEのものが主流と思われるが、有線版もあるのかも（本レポジトリは非対応）。
   - XIAO BLEはモジュール自体が日本の技適を取得している。
   - 当然だが両手を買っても使うのは片手だけ。左右鏡像配置でも学習コストは高め。
   - Choc V2対応改修版にPurple Glede軸をつけて買ったけど、癖になるキータッチ。
