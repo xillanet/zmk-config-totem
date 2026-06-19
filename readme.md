@@ -12,6 +12,7 @@
 Original TOTEM is a 38 key column-staggered split keyboard. This fork is using ZMK TOTEM and is design for one-handed use and is specifically for Japanese.
 
 本フォークは無線分割キーボード「TOTEM」の左手側（または右手側）を独立した片手用キーボードとして運用するための個人用設定レポジトリになります。
+片手だけでフルキーボードの代用ができることを目指しています。左右どちらでも使えますが、右利きを想定し、利き手がフリーになるよう、左側のキーボードを優先して調整しています。
 キー配列は調整中です。
 
 基本コンセプトとして、完全に日本語の入力に特化した配列を採用しています。英語やプログラミングには不向きですが、その分、日本語入力は効率的になるようにデザインされています。
