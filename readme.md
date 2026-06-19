@@ -9,7 +9,7 @@
 [Here](https://github.com/GEIGEIGEIST/totem) you can find the hardware files and build guide.\
 [Here](https://github.com/GEIGEIGEIST/qmk-config-totem) you can find the QMK config for the TOTEM.
 
-Original TOTEM is a 38 key column-staggered split keyboard. This fork is design for one-handed use and is specifically for Japanese and is using ZMK firmware.
+Original TOTEM is a 38 key column-staggered split keyboard. This fork is using ZMK TOTEM and is design for one-handed use and is specifically for Japanese.
 
 本フォークは無線分割キーボード「TOTEM」の左手側（または右手側）を独立した片手用キーボードとして運用するための個人用設定レポジトリになります。
 完全に日本語の入力に特化した配列です。英語やプログラミングには不向きですが、その分、日本語入力は効率的になるようにデザインされています。
@@ -24,10 +24,11 @@ Original TOTEM is a 38 key column-staggered split keyboard. This fork is design 
   - base_layerは母音と子音の清音。
   - nav_layerは親指左キーでバックスペース兼用。カーソルや修飾キー、Bluetooth設定キーを配置。
   - sub_layerは親指右キーでスペースキー兼用。濁音や読点、日本語入力で使わない文字。
-  - num_layerは親指中央キーでリターンキー兼用。数字キーは電話由来の配列。記号もこちら。
+  - num_layerは親指中央キーでリターンキー兼用。数字キーは電話由来の配列。各種記号キーも左右に配置。
 - **英語キーボード設定向け** 英語キーボードとして設計。iPhoneやMac、Androidに対応。
-  - 数字を含む各キーのシフト入力の記号などの対応は英語キーボード準拠なので注意。
-  - 英語キーボードなのでペアリング時のトラブルが起きにくい。
+  - Shiftキーによる記号などの対応は英語キーボード準拠なので注意。とくに数字キー。
+  - 英語キーボードなのでペアリング時のトラブルが起きにくいハズ。
+  - 言語切替のLANG1キーとLANG2キーがあるのえ、アップル製品とAndroidでは日本語・英語の切り替えが容易（Windowsは未検証）。
 - **ホールドタップ不使用** GUI/ALT/CTRLキーはSticky Keyを使用。Shiftはホールド設定で単押しは言語切替。
 - **2026年6月時点のビルドで安定動作** ビルドエラーを回避するためにZMKのバージョンを`v0.2`に固定。
 
@@ -46,7 +47,7 @@ Original TOTEM is a 38 key column-staggered split keyboard. This fork is design 
   - Choc V1のみとChoc V1/V2両対応版があるので注意。
   - XIAO BLEのものが主流と思われるが、有線版もあるのかも（本レポジトリは非対応）。
   - XIAO BLEはモジュール自体が日本の技適を取得している。
-  - 当然だが両手を買っても使うのは片手だけ。左右鏡像配置でも学習コストは高め。
+  - 当然だが両手を買っても使うのは片手だけ。
   - Choc V2対応改修版にPurple Glede軸をつけて買ったけど、癖になるキータッチ。
   - KLP Lameキーキャップも押しやすいのでセット品はわりとオススメ。
 
