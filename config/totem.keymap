@@ -82,8 +82,8 @@
 
             bindings = <
         &kp PG_UP  &kp HOME   &kp UP        &kp END       &bt BT_SEL 0    &bt BT_SEL 0  &kp HOME        &kp UP_ARROW    &kp END          &kp PG_UP
-        &kp PG_DN  &kp LEFT   &kp DOWN      &kp RIGHT     &bt BT_SEL 1    &bt BT_SEL 1  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PG_DN
-&trans  &trans     &sk LCTRL  &sk LEFT_ALT  &sk LEFT_GUI  &bt BT_SEL 2    &bt BT_SEL 2  &sk RIGHT_GUI   &sk RIGHT_ALT   &sk RCTRL        &trans     &trans
+        &kp ESC    &kp LEFT   &kp DOWN      &kp RIGHT     &bt BT_SEL 1    &bt BT_SEL 1  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp ESC
+&trans  &kp PG_DN  &sk LCTRL  &sk LEFT_ALT  &sk LEFT_GUI  &bt BT_SEL 2    &bt BT_SEL 2  &sk RIGHT_GUI   &sk RIGHT_ALT   &sk RCTRL        &kp PAGE_DOWN  &trans
                               &trans        &bt BT_SEL 3  &bt BT_CLR      &bt BT_CLR    &bt BT_SEL 3    &trans
             >;
         };
